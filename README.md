@@ -4,19 +4,19 @@
 - For personal computer users, please refer to
 
 ## Running Inference on Nvidia Jetson Nano using YoloV5
-1. Download the model (Military.pt) file from the repository
+1. Download the model (MilitarySignals.pt) file from the repository
 2. Move the model to the YoloV5 folder on the Jetson Nano
 3. Open Terminal
 4. Run the inference inside your conda environment using the following codes. (change 'myenv' to your environment name)
    - `conda activate myenv`
    - `cd yolov5`
-   - `python3 detect.py --weights Military.pt --source 0 --device 0`
+   - `python3 detect.py --weights MilitarySignals.pt --source 0 --device 0`
 
 ## Running Inference on personal computer using YoloV5
-1. Download the model (Military.pt) file from the repository
+1. Download the model (MilitarySignals.pt) file from the repository
 2. Move the model to the YoloV5 folder on the personal computer
 3. Open Anaconda Prompt
 4. Run the inference inside your conda environment using the following codes. (change 'myenv' to your environment name)
    - `conda activate myenv`
    - `cd yolov5`
-   - `python detect.py --weights Military.pt --source 0 --device 0`
+   - `python detect.py --weights MilitarySignals.pt --source 0 --device 0`
