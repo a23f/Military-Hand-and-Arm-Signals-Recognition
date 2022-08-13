@@ -5,8 +5,12 @@
 
 ## Classes in the model
 There are a total of 10 classes in the model.
-1. Freeze
-[cell_leader_i](https://user-images.githubusercontent.com/101104505/184507877-b746936a-537d-442d-b020-6b2c0f4801be.jpg)
+
+<img src="https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/blob/main/Classes/Freeze.jpg" width="250" height="305">    <img src="https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/blob/main/Classes/Pistol.jpg" width="250" height="305">    <img src="https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/blob/main/Classes/Trap.jpg" width="250" height="305">
+
+<img src="https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/blob/main/Classes/Cell_Leader.jpg" width="200" height="325">     <img src="https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/blob/main/Classes/Enemy.jpg" width="200" height="325">     <img src="https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/blob/main/Classes/Gather.jpg" width="200" height="325">    <img src="https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/blob/main/Classes/Gas.jpg" width="200" height="325">
+
+<img src="https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/blob/main/Classes/Hostage.jpg" width="200" height="325">      <img src="https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/blob/main/Classes/Rifle.jpg" width="200" height="325">     <img src="https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/blob/main/Classes/Sniper.jpg" width="200" height="325">
 
 ## Running Inference on Nvidia Jetson Nano using Webcam
 1. Click this link to download the model file: [MilitarySignals.pt](https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/raw/main/MilitarySignals.pt)
@@ -16,6 +20,7 @@ There are a total of 10 classes in the model.
    - `conda activate myenv`
    - `cd yolov5`
    - `python3 detect.py --weights MilitarySignals.pt --source 0 --device 0`
+5. Try imitating the 10 Military Hand and Arm Signal classes as shown above in front of your webcam.
 
 ## Running Inference on personal computer using Webcam
 1. Click this link to download the model file: [MilitarySignals.pt](https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/raw/main/MilitarySignals.pt)
@@ -25,3 +30,4 @@ There are a total of 10 classes in the model.
    - `conda activate myenv`
    - `cd yolov5`
    - `python detect.py --weights MilitarySignals.pt --source 0 --device 0`
+5. Try imitating the 10 Military Hand and Arm Signal classes as shown above in front of your webcam.
