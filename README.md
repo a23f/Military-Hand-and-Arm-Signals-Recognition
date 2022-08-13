@@ -3,8 +3,8 @@
 - For Nvidia Jetson Nano users, please refer to [Setting-Up-Jetson-Nano](https://github.com/a23f/Setting-Up-Jetson-Nano/) repository on how to set up the Jetson Nano before doing Inference for this system.
 - For personal computer users, please refer to
 
-## Classes in the model
-There are a total of 10 classes in the model.
+## Class in the model
+Dataset images were captured using a webcam and annotated using [roboflow](https://roboflow.com/). There are a total of 10 classes in the model:
 1. Freeze
 2. Pistol
 3. Trap
