@@ -1,7 +1,7 @@
 # Military Hand and Arm Signals Recognition System
 - This Military hand and arm signals recognition system is made using `Roboflow`, `YoloV5`, and `PyTorch`. This system can be run on an Nvidia Jetson Nano or even your own personal computer. 
-- For Nvidia Jetson Nano users, please refer to [Setting-Up-Jetson-Nano](https://github.com/a23f/Setting-Up-Jetson-Nano/) repository on how to set up the Jetson Nano and the required packages installation before doing Inference for this system.
-- For personal computer users, please refer to [Setting-Up-Anaconda-Windows](https://github.com/a23f/Setting-Up-Anaconda-Windows) repository on how to set up the Anaconda on Windows and the required packages installation before doing Inference for this system.
+- For Nvidia Jetson Nano users, please refer to [Setting-Up-Jetson-Nano-For-YoloV5-Object-Detection](https://github.com/a23f/Setting-Up-Jetson-Nano-For-YoloV5-Object-Detection) repository on how to set up the Jetson Nano and the required packages installation before doing Inference for this system.
+- For personal computer users, please refer to [Setting-Up-Anaconda-On-Windows-For-YoloV5-Object-Detection](https://github.com/a23f/Setting-Up-Anaconda-On-Windows-For-YoloV5-Object-Detection) repository on how to set up the Anaconda on Windows and the required packages installation before doing Inference for this system.
 
 ## Class in the model
 Dataset images were captured using a webcam and annotated using [Roboflow](https://roboflow.com/). There are a total of 10 classes in the model:
