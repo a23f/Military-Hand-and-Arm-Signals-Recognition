@@ -5,6 +5,16 @@
 
 ## Classes in the model
 There are a total of 10 classes in the model.
+1. Freeze
+2. Pistol
+3. Trap
+4. Cell Leader
+5. Enemy
+6. Gather
+7. Gas
+8. Hostage
+9. Rifle
+10. Sniper
 
 <img src="https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/blob/main/Classes/Freeze.jpg" width="250" height="305">    <img src="https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/blob/main/Classes/Pistol.jpg" width="250" height="305">    <img src="https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/blob/main/Classes/Trap.jpg" width="250" height="305">
 
