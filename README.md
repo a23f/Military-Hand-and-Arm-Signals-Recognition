@@ -4,7 +4,7 @@
 - For personal computer users, please refer to
 
 ## Running Inference on Nvidia Jetson Nano using YoloV5
-1. Download the model (MilitarySignals.pt) file from the repository
+1. Click this link to download the model file: [MilitarySignals.pt](https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/raw/main/MilitarySignals.pt)
 2. Move the model to the YoloV5 folder on the Jetson Nano
 3. Open Terminal
 4. Run the inference inside your conda environment using the following codes. (change 'myenv' to your environment name)
@@ -13,7 +13,7 @@
    - `python3 detect.py --weights MilitarySignals.pt --source 0 --device 0`
 
 ## Running Inference on personal computer using YoloV5
-1. Download the model (MilitarySignals.pt) file from the repository
+1. Click this link to download the model file: [MilitarySignals.pt](https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/raw/main/MilitarySignals.pt)
 2. Move the model to the YoloV5 folder on the personal computer
 3. Open Anaconda Prompt
 4. Run the inference inside your conda environment using the following codes. (change 'myenv' to your environment name)
