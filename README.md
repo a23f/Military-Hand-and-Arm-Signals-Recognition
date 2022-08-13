@@ -19,4 +19,4 @@
 4. Run the inference inside your conda environment using the following codes. (change 'myenv' to your environment name)
    - `conda activate myenv`
    - `cd yolov5`
-   - `python3 detect.py --weights Military.pt --source 0 --device 0`
+   - `python detect.py --weights Military.pt --source 0 --device 0`
