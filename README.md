@@ -4,7 +4,7 @@
 - For personal computer users, please refer to
 
 ## Class in the model
-Dataset images were captured using a webcam and annotated using [roboflow](https://roboflow.com/). There are a total of 10 classes in the model:
+Dataset images were captured using a webcam and annotated using [Roboflow](https://roboflow.com/). There are a total of 10 classes in the model:
 1. Freeze
 2. Pistol
 3. Trap
