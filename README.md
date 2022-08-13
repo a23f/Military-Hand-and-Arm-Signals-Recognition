@@ -3,7 +3,12 @@
 - For Nvidia Jetson Nano users, please refer to [Setting-Up-Jetson-Nano](https://github.com/a23f/Setting-Up-Jetson-Nano/) repository on how to set up the Jetson Nano before doing Inference for this system.
 - For personal computer users, please refer to
 
-## Running Inference on Nvidia Jetson Nano using YoloV5
+## Classes in the model
+There are a total of 10 classes in the model.
+1. Freeze
+[cell_leader_i](https://user-images.githubusercontent.com/101104505/184507877-b746936a-537d-442d-b020-6b2c0f4801be.jpg)
+
+## Running Inference on Nvidia Jetson Nano using Webcam
 1. Click this link to download the model file: [MilitarySignals.pt](https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/raw/main/MilitarySignals.pt)
 2. Move the model to the YoloV5 folder on the Jetson Nano
 3. Open Terminal
@@ -12,7 +17,7 @@
    - `cd yolov5`
    - `python3 detect.py --weights MilitarySignals.pt --source 0 --device 0`
 
-## Running Inference on personal computer using YoloV5
+## Running Inference on personal computer using Webcam
 1. Click this link to download the model file: [MilitarySignals.pt](https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/raw/main/MilitarySignals.pt)
 2. Move the model to the YoloV5 folder on the personal computer
 3. Open Anaconda Prompt
