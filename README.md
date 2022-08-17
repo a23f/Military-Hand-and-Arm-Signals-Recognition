@@ -3,7 +3,7 @@
 - For Nvidia Jetson Nano users, please refer to [Setting-Up-Jetson-Nano-For-YoloV5-Object-Detection](https://github.com/a23f/Setting-Up-Jetson-Nano-For-YoloV5-Object-Detection) repository on how to set up the Jetson Nano and the required packages installation before doing Inference for this system.
 - For personal computer users, please refer to [Setting-Up-Anaconda-On-Windows-For-YoloV5-Object-Detection](https://github.com/a23f/Setting-Up-Anaconda-On-Windows-For-YoloV5-Object-Detection) repository on how to set up the Anaconda on Windows and the required packages installation before doing Inference for this system.
 
-## Class in the model
+## Classes in the model
 Dataset images were captured using a webcam and annotated using [Roboflow](https://roboflow.com/). There are a total of 10 classes in the model:
 1. Freeze
 2. Pistol
