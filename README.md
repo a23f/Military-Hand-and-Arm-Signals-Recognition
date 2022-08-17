@@ -22,7 +22,8 @@ Dataset images were captured using a webcam and annotated using [Roboflow](https
 
 <img src="https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/blob/main/Classes/Hostage.jpg" width="200" height="325">      <img src="https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/blob/main/Classes/Rifle.jpg" width="200" height="325">     <img src="https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/blob/main/Classes/Sniper.jpg" width="200" height="325">
 
-## Running Inference on Nvidia Jetson Nano using Webcam
+## Running Inference on Nvidia Jetson Nano using:
+### Webcam
 1. Click this link to download the model file: [MilitarySignals.pt](https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/raw/main/MilitarySignals.pt)
 2. Move the model to the YoloV5 folder on the Jetson Nano
 3. Open Terminal
@@ -32,7 +33,26 @@ Dataset images were captured using a webcam and annotated using [Roboflow](https
    - `python3 detect.py --weights MilitarySignals.pt --source 0 --device 0`
 5. Try imitating the 10 Military Hand and Arm Signal classes as shown above in front of your webcam.
 
-## Running Inference on personal computer using Webcam
+### Image File
+1. Click this link to download the model file: [MilitarySignals.pt](https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/raw/main/MilitarySignals.pt)
+2. Move the model to the YoloV5 folder on the Jetson Nano
+3. Open Terminal
+4. Run the inference inside your conda environment using the following codes. (change 'myenv' to your environment name)
+   - `conda activate myenv`
+   - `cd yolov5`
+   - `python3 detect.py --weights MilitarySignals.pt --source 0 --device image.jpg`    (change 'image.jpg' to your image file name)
+
+### Video File
+1. Click this link to download the model file: [MilitarySignals.pt](https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/raw/main/MilitarySignals.pt)
+2. Move the model to the YoloV5 folder on the Jetson Nano
+3. Open Terminal
+4. Run the inference inside your conda environment using the following codes. (change 'myenv' to your environment name)
+   - `conda activate myenv`
+   - `cd yolov5`
+   - `python3 detect.py --weights MilitarySignals.pt --source 0 --device video.mp4`    (change 'video.mp4' to your video file name)
+
+## Running Inference on personal computer using:
+### Webcam
 1. Click this link to download the model file: [MilitarySignals.pt](https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/raw/main/MilitarySignals.pt)
 2. Move the model to the YoloV5 folder on the personal computer
 3. Open Anaconda Prompt
@@ -41,3 +61,21 @@ Dataset images were captured using a webcam and annotated using [Roboflow](https
    - `cd yolov5`
    - `python detect.py --weights MilitarySignals.pt --source 0 --device 0`
 5. Try imitating the 10 Military Hand and Arm Signal classes as shown above in front of your webcam.
+
+### Image File
+1. Click this link to download the model file: [MilitarySignals.pt](https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/raw/main/MilitarySignals.pt)
+2. Move the model to the YoloV5 folder on the personal computer
+3. Open Anaconda Prompt
+4. Run the inference inside your conda environment using the following codes. (change 'myenv' to your environment name)
+   - `conda activate myenv`
+   - `cd yolov5`
+   - `python detect.py --weights MilitarySignals.pt --source 0 --device image.jpg`     (change 'image.jpg' to your image file name)
+
+### Video File
+1. Click this link to download the model file: [MilitarySignals.pt](https://github.com/a23f/Military-Hand-and-Arm-Signals-Recognition/raw/main/MilitarySignals.pt)
+2. Move the model to the YoloV5 folder on the personal computer
+3. Open Anaconda Prompt
+4. Run the inference inside your conda environment using the following codes. (change 'myenv' to your environment name)
+   - `conda activate myenv`
+   - `cd yolov5`
+   - `python detect.py --weights MilitarySignals.pt --source 0 --device video.mp4`     (change 'video.mp4' to your image file name)
