@@ -78,4 +78,4 @@ Dataset images were captured using a webcam and annotated using [Roboflow](https
 4. Run the inference inside your conda environment using the following codes. (change 'myenv' to your environment name)
    - `conda activate myenv`
    - `cd yolov5`
-   - `python detect.py --weights MilitarySignals.pt --source 0 --device video.mp4`     (change 'video.mp4' to your image file name)
+   - `python detect.py --weights MilitarySignals.pt --source 0 --device video.mp4`     (change 'video.mp4' to your video file name)
